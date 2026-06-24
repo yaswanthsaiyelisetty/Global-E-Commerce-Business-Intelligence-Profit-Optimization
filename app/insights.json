@@ -1,0 +1,120 @@
+{
+    "kpis": {
+        "total_revenue": 484559.33999999997,
+        "total_profit": 158872.32,
+        "total_orders": 2000,
+        "avg_order_value": 242.27966999999998,
+        "profit_margin": 32.78696887774365,
+        "total_shipping_cost": 25804.239999999998
+    },
+    "sales_by_region": {
+        "Asia Pacific": 121707.51,
+        "Europe": 137006.2,
+        "Middle East & Africa": 45918.12,
+        "North America": 133876.38,
+        "South America": 46051.13
+    },
+    "profit_by_category": {
+        "Clothing & Accessories": 26112.94,
+        "Furniture": 81171.57,
+        "Office Supplies": 3319.16,
+        "Technology": 48268.65
+    },
+    "monthly_sales": [
+        31611.59,
+        36260.549999999996,
+        34378.89,
+        44203.66,
+        42434.47,
+        43694.85,
+        45671.22,
+        34157.01,
+        36002.05,
+        51095.4,
+        39669.78,
+        45379.87
+    ],
+    "payment_method_distribution": {
+        "Credit Card": 797,
+        "PayPal": 609,
+        "Cash on Delivery": 301,
+        "Bank Transfer": 293
+    },
+    "top_products": [
+        {
+            "Product_Name": "Standing Desk Converter",
+            "Product_Category": "Furniture",
+            "Total_Sales": 46614.22,
+            "Profit": 14694.35
+        },
+        {
+            "Product_Name": "Ergonomic Office Chair",
+            "Product_Category": "Furniture",
+            "Total_Sales": 45405.15,
+            "Profit": 15104.58
+        },
+        {
+            "Product_Name": "Corner L-Shaped Desk",
+            "Product_Category": "Furniture",
+            "Total_Sales": 41070.48,
+            "Profit": 13663.0
+        },
+        {
+            "Product_Name": "Mesh Back Task Chair",
+            "Product_Category": "Furniture",
+            "Total_Sales": 38179.77,
+            "Profit": 12820.11
+        },
+        {
+            "Product_Name": "Wireless Bluetooth Headphones",
+            "Product_Category": "Technology",
+            "Total_Sales": 28258.7,
+            "Profit": 10611.08
+        }
+    ],
+    "target_achievement": [
+        {
+            "Region": "Asia Pacific",
+            "Sales_Target": 220000,
+            "Total_Sales": 121707.51,
+            "Achievement_Percent": 55.321595454545445,
+            "Status": "Underperforming"
+        },
+        {
+            "Region": "Europe",
+            "Sales_Target": 200000,
+            "Total_Sales": 137006.2,
+            "Achievement_Percent": 68.5031,
+            "Status": "Underperforming"
+        },
+        {
+            "Region": "Middle East & Africa",
+            "Sales_Target": 150000,
+            "Total_Sales": 45918.12,
+            "Achievement_Percent": 30.612080000000002,
+            "Status": "Underperforming"
+        },
+        {
+            "Region": "North America",
+            "Sales_Target": 250000,
+            "Total_Sales": 133876.38,
+            "Achievement_Percent": 53.55055200000001,
+            "Status": "Underperforming"
+        },
+        {
+            "Region": "South America",
+            "Sales_Target": 130000,
+            "Total_Sales": 46051.13,
+            "Achievement_Percent": 35.42394615384615,
+            "Status": "Underperforming"
+        }
+    ],
+    "recommendations": [
+        "Increase marketing investment in high-profit regions like North America.",
+        "Reduce excessive discounting if it consistently lowers profit margins.",
+        "Optimize shipping costs in regions where the shipping cost ratio is high.",
+        "Promote products with high profit margins instead of focusing purely on top-line sales.",
+        "Improve performance in underachieving regions using localized targeting and offers.",
+        "Encourage preferred payment methods to improve overall checkout completion rates."
+    ]
+}

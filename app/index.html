@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global E-Commerce BI Dashboard</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- 1. Executive Header -->
+        <header class="executive-header">
+            <div class="header-content">
+                <h1>Global E-Commerce BI Dashboard</h1>
+                <p class="subtitle">Executive Sales, Profitability & Customer Intelligence Dashboard | 2023–2025</p>
+                <p class="objective">Business Objective: Analyze revenue trends, profit opportunities, and operational risks to drive strategic decision-making.</p>
+            </div>
+            <div class="date-badge">
+                <span id="current-date">Updated: June 2026</span>
+            </div>
+        </header>
+
+        <!-- 2. KPI Cards -->
+        <section class="kpi-section" id="kpi-container">
+            <!-- KPIs will be injected here via JS -->
+        </section>
+
+        <!-- 3. Performance Insights -->
+        <section class="performance-insights">
+            <h2>Key Performance Highlights</h2>
+            <div class="insights-grid" id="insights-container">
+                <!-- Insights injected here via JS -->
+            </div>
+        </section>
+
+        <!-- 4. Charts Section -->
+        <section class="charts-section">
+            <div class="chart-card large">
+                <h3>Monthly Sales Trend</h3>
+                <div class="chart-container">
+                    <canvas id="monthlySalesChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="chart-card">
+                <h3>Sales by Region</h3>
+                <div class="chart-container">
+                    <canvas id="salesRegionChart"></canvas>
+                </div>
+            </div>
+
+            <div class="chart-card">
+                <h3>Profit by Category</h3>
+                <div class="chart-container">
+                    <canvas id="profitCategoryChart"></canvas>
+                </div>
+            </div>
+
+            <div class="chart-card">
+                <h3>Target Achievement by Region</h3>
+                <div class="chart-container">
+                    <canvas id="targetAchievementChart"></canvas>
+                </div>
+            </div>
+
+            <div class="chart-card">
+                <h3>Payment Method Distribution</h3>
+                <div class="chart-container">
+                    <canvas id="paymentMethodChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Tables Section -->
+        <section class="tables-section">
+            <!-- 5. Target Achievement Table -->
+            <div class="table-card">
+                <h3>Regional Target Achievement</h3>
+                <div class="table-responsive">
+                    <table id="targetTable">
+                        <thead>
+                            <tr>
+                                <th>Region</th>
+                                <th>Sales Target</th>
+                                <th>Actual Sales</th>
+                                <th>Achievement %</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows injected via JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 6. Top Products Table -->
+            <div class="table-card">
+                <h3>Top Performing Products</h3>
+                <div class="table-responsive">
+                    <table id="productsTable">
+                        <thead>
+                            <tr>
+                                <th>Product Name</th>
+                                <th>Category</th>
+                                <th>Total Sales</th>
+                                <th>Total Profit</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows injected via JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Executive Recommendations -->
+        <section class="recommendations-section">
+            <h2>Strategic Recommendations</h2>
+            <div class="recommendations-grid" id="recommendations-container">
+                <!-- Recommendations injected via JS -->
+            </div>
+        </section>
+        
+        <footer>
+            <p>&copy; 2026 Global E-Commerce BI Dashboard. Portfolio Project.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
